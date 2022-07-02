@@ -17,12 +17,13 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper{
+.instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
     height: 100vh;
+    border: none;
 }
 
 .instagram-phone {
@@ -30,10 +31,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+    background-image: url('./iphone-nba.png');
+    background-position: 150% 35px;
+    background-repeat: no-repeat;
 }
 
 .instagram-phone img{
-    height: 40rem;
+    height: 45rem;
 }
 
 .instagram-continue {
